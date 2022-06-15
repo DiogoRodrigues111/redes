@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/redes.dir/server.cpp.o -o redes 

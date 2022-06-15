@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/diogorroessler/Softwares/redes/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/redes.dir/server.cpp.o -c /home/diogorroessler/Softwares/redes/server.cpp",
+  "file": "/home/diogorroessler/Softwares/redes/server.cpp"
+}
+]

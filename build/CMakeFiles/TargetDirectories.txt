@@ -1,0 +1,3 @@
+/home/diogorroessler/Softwares/redes/build/CMakeFiles/redes.dir
+/home/diogorroessler/Softwares/redes/build/CMakeFiles/edit_cache.dir
+/home/diogorroessler/Softwares/redes/build/CMakeFiles/rebuild_cache.dir
