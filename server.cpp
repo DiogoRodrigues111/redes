@@ -49,7 +49,7 @@ int main (int argc, char* argv[])
     write (intSocket, "Hello Mr.", 8);
 
     addrBind = read (intSocket, buffer, 1023);
-    if (addrBind < 0) std::cerr << "Server Failure to READ intSock." << strerror(errno) << "\n";
+    if (addrBind < 0) std::cerr << "Server Failure to READ intSocket." << strerror(errno) << "\n";
     std::cout << "Data receives: " << addrBind << "Bytes: " << buffer << "\n";
 
     close (addrAccept);
