@@ -20,7 +20,7 @@ int main (int argc, char* argv[])
     pSockAddr.sin_port = htons (intListenPort);
     pSockAddr.sin_addr.s_addr = htons (INADDR_ANY);
 
-    int32_t addrBind = bind(intSocket, (struct sockaddr*)&pSockAddr, sizeof(pSockAddr));
+    int32_t addrBind = bind (intSocket, (struct sockaddr*)&pSockAddr, sizeof(pSockAddr));
     socklen_t addrSockLen;
     int32_t addrAccept = 1;
 
@@ -46,7 +46,7 @@ int main (int argc, char* argv[])
 
     addrBind = close(intSocket); // close listen socket.
 
-    write (intSocket, "Hello Mr.", 8);
+    write (intSocket, "Hello Mr.:", 8);
 
     addrBind = read (intSocket, buffer, 1023);
     if (addrBind < 0) std::cerr << "Server Failure to READ intSocket." << strerror(errno) << "\n";
